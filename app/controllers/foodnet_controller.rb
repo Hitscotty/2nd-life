@@ -1,8 +1,12 @@
-class FoodnetController < ApplicationController
-  def net
-   @hotels = HTTParty.get('https://shielded-wave-66393.herokuapp.com',
-   :headers =>{'Content-Type' => 'application/json'} )
-  end
+require 'httparty'
 
+class FoodnetController < ApplicationController
+
+  def net
+   fooddata = HTTParty.get('http://demo.ckan.org/api/1/rest/dataset')
+   #render text: fooddata
+   @data = fooddata[10]
+   @dataset = fooddata
+  end
 
 end

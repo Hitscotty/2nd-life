@@ -1,6 +1,13 @@
 <div class="wrapper">
- <div class="content">
-  <h1>Foodnet#net</h1>
-  <p>Find me in app/views/foodnet/net.html.erb</p>
- </div>
-</div>
+    <div class="content">
+        <h1>Foodnet</h1>
+        <p>Food Listings</p>
+        <p>
+            <%= @data %>
+            <%=
+            @dataset.each do |set|
+                set
+                 end
+             %>
+        </div>
+    </div>

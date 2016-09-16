@@ -1,9 +1,8 @@
-
 Rails.application.routes.draw do
 
-  root 'foodnet#net'
-
- #root 'welcome#index'
+ root 'welcome#index'
+ get 'food/net' => 'foodnet#net'
+ 
 end
 
 
