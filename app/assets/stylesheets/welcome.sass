@@ -1,6 +1,10 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import(https://fonts.googleapis.com/css?family=Amatic+SC|Tillana:500)
+
+$font-title: Amatic SC, cursive
+$font-text: Tillan, semi-bold
 
 html, body
 	margin: 0
@@ -30,12 +34,16 @@ html, body
 	margin-top: 10%
 	height: auto
 	text-align: center
-	border: 2px pink dashed
 
 	h1
 		margin: 0
-		color: green
+		font-size: 70px
+		font-family: $font-title
+		color: #86E2D5
 
 	p
 		margin-top: 0
-		color: gold
+		font-size: 12px
+		font-family: $font-text
+		color: white
+		text-shadow: 0 0 3px white
