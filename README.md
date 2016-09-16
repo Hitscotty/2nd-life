@@ -1,5 +1,7 @@
-# Godan Hackathon: 2nd-life
-Is a web-application that allows you to access data on individual/global nutrition choices.
+# Godan Hackathon: 2ndLife
+Is a web-application that allows you to access data for nutritious choices.
+
+![img](projectImage.png)
 
 #Open Data Challenge
 This hackathon aims to answer the following challenge:
