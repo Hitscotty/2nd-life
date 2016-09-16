@@ -1,0 +1,2 @@
+module FoodnetHelper
+end

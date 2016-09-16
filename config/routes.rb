@@ -1,5 +1,9 @@
+
 Rails.application.routes.draw do
- root 'welcome#index'
+
+  root 'foodnet#net'
+
+ #root 'welcome#index'
 end
 
 

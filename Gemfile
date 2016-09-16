@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+# CKAN API to get open database
+gem 'ckan'
+gem 'httparty'
