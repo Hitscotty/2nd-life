@@ -1,10 +1,12 @@
 require 'httparty'
 require 'ckan'
 
+REST_API = "http://demo.ckan.org/api/3/action"
 AUTH_KEY = "upRQngIuH8UPWVrpJzZkadM2OipwO0y6oKBqXxR8"
+
 SAMPLE_TAG = "Topics"
 SAMPLE_SUB_TAG = "education"
-NUM_OF_TAGS = 10
+NUM_OF_TAGS = 10.to_s
 
 class FoodnetController < ApplicationController
   def net
@@ -16,17 +18,17 @@ end
 
 # ckan API actions aka my very own client
 def getTags
- return HTTParty.get('http://demo.ckan.org/api/3/action/tag_list/')
+ return HTTParty.get(REST_API + '/tag_list')
 end
 
 # returns list of top data sets
 def topTags
- return HTTParty.get('http://demo.ckan.org/api/action/package_search?facet.field=[%22tags%22]&facet.limit=' + NUM_OF_TAGS.to_s + '&rows=0')
+ return HTTParty.get(REST_API + '/package_search?facet.field=[%22tags%22]&facet.limit=' + NUM_OF_TAGS + '&rows=0')
 end
 
 # search all datasets for given tag
 def searchTag(tag)
- return HTTParty.get('http://demo.ckan.org/api/3/action/package_search?fq=tags:' + tag)
+ return HTTParty.get(REST_API + '/package_search?fq=tags:' + tag)
 end
 
 # A list of datasets using subtag from vocabulary tag:
