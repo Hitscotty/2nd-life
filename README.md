@@ -13,7 +13,7 @@ I decided to seek a solution to the following issues:
 - Empower the Crowd: Using open data to improve how we leverage the crowd’s actions and knowledge to create a better food system.
 - Improve Nutrition and Health: Using open data to improve how we track, make available, and improve nutrition in our daily diets.
 - Meet the Protein Frontier: Using open data to improve how we address the growing demand for protein, and the opportunity for more sustainable and alternative proteins.
-- 
+
 # API
 [CKAN API](http://docs.ckan.org/en/latest/api/): allows you to easily organize, publish, and find data
 
