@@ -1,7 +1,10 @@
 # Godan Hackathon: 2ndLife
-Is a web-application that allows you to access and use open data easily to make healthier choices while also promoting environmently friendly companies by being connecting consumers to the right companies. It comes provides the user with three options where you can request a curated healthy diet, a map/listing of where good food comes from globally, and an option to sponsor the nearest protein farm/company which will create more sustainable and alternative proteins. The idea is that by giving a means of easily access, educate, and point the user in a direction that will benefit them and our food system. ~ <b>"Take care of yourself, Take care of the world!"</b>
+Is a web-application that allows you to access and use open data easily to make healthier choices while also promoting environmently friendly companies by being connecting consumers to the right companies. It comes provides the user with three options where you can request a curated healthy diet, a map/listing of where good food comes from globally, and an option to sponsor the nearest protein farm/company which will create more sustainable and alternative proteins. 
 
 ![img](projectImage.png)
+
+The idea is that by giving a means of easily access, educate, and point the user in a direction that will benefit them and our food system. ~ <b>"Take care of yourself, Take care of the world!"</b>
+
 
 #Open Data Challenge
 This hackathon aims to answer the following challenge:
